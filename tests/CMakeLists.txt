@@ -1,0 +1,5 @@
+add_executable(test_rtmp_server test_rtmp_server.c)
+target_link_libraries(test_rtmp_server PRIVATE ingest common)
+
+add_executable(test_transcoder test_transcoder.c)
+target_link_libraries(test_transcoder PRIVATE transcoding common)
