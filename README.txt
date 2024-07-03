@@ -40,18 +40,3 @@ The system consists of several key components:
 - [Distribution API](./api/distribution_api.md)
 - [Management API](./api/management_api.md)
 
-## Deployment
-
-For information on deploying the system in a production environment, see our [deployment guide](./deployment.md).
-
-## Performance
-
-For details on system performance and benchmarks, refer to our [performance documentation](./performance.md).
-
-## Contributing
-
-We welcome contributions to the project. Please see our [contribution guidelines](./contributing.md) for more information.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
