@@ -1,0 +1,10 @@
+^C:\USERS\LEGION\ONEDRIVE\DESKTOP\LIVE-STREAM-SYSTEM\BUILD\CMAKEFILES\44C4E9992EF8161ABF4D6CABA798A84C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Legion/OneDrive/Desktop/live-stream-system -BC:/Users/Legion/OneDrive/Desktop/live-stream-system/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Legion/OneDrive/Desktop/live-stream-system/build/LiveStreamSystem.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
